@@ -2,15 +2,15 @@
 #
 # Creates a course.
 
-PHP=`mdk config show php`
+PHP=`which php`
 I="$RANDOM"
-SHORTNAME="MDK101-$I"
-FULLNAME="Moodle Development $I"
+SHORTNAME="M101-$I"
+FULLNAME="Moodle Dev $I"
 SIZE="S"
-CLI="admin/tool/generator/cli/maketestcourse.php"
+CLI="../moodle/admin/tool/generator/cli/maketestcourse.php"
 
 if [ ! -e "$CLI" ]; then
-    echo "Cannot create a course: the CLI script to create test courses could not be found."
+    echo "Cannot create a course: the CLI script to create test courses could not be foun$
     exit 1
 fi
 
