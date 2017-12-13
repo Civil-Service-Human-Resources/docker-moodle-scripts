@@ -5,3 +5,5 @@ PHP scripts will be executed from the web directory of an instance. They will be
 ### Shell
 
 Shell scripts will be executed from the web directory of an instance. They will be made executable and run on their own.
+
+Currently these should executed in `/opt/bitnami`
